@@ -9,6 +9,6 @@ cd final\
 source bin/activate\
 pip install -r requirements.txt\
 python -m ipykernel install --user --name=Python4ML\
-jupyter notebook\
+jupyter notebook
 
 This will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows you (among other things) to select which notebook to open. In the Notebook Dashboard, navigate to find the notebook: clicking on its name will open it in a new browser tab. When you open a Notebook document, the associated kernel is automatically launched. You can run the notebook document step-by-step (one cell at a time) by pressing shift + enter. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
