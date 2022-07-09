@@ -1,24 +1,14 @@
 ## The best classifier
-Machine Learning with Python (IBM) - Final project
+Machine Learning with Python - Final project
 
-### Instructions
+Run the following commands in your terminal to run this notebook:
 
-Now that you have been equipped with the skills to use different Machine Learning algorithms, over the course of five weeks, you will have the opportunity to practice and apply it on a dataset. In this project, you will complete a notebook where you will build a classifier to predict whether a loan case will be paid off or not.
+git clone https://github.com/sinisabubonja/Coursera-final-project-the-best-classifier.git
+python3 -m venv final
+cd final
+source bin/activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name=Python4ML
+jupyter notebook
 
-You load a historical dataset from previous loan applications, clean the data, and apply different classification algorithm on the data. You are expected to use the following algorithms to build your models:
-
-- k-Nearest Neighbour
-
-- Decision Tree
-
-- Support Vector Machine
-
-- Logistic Regression
-
-The results is reported as the accuracy of each classifier, using the following metrics when these are applicable:
-
-- Jaccard index
-
-- F1-score
-
-- LogLoass
+This will launch a new browser window (or a new tab) showing the Notebook Dashboard, a sort of control panel that allows you (among other things) to select which notebook to open. In the Notebook Dashboard, navigate to find the notebook: clicking on its name will open it in a new browser tab. When you open a Notebook document, the associated kernel is automatically launched. You can run the notebook document step-by-step (one cell at a time) by pressing shift + enter. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
