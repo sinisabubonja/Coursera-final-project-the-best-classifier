@@ -1,7 +1,7 @@
 ## The best classifier
 Machine Learning with Python - Final project
 
-Run the following commands in your terminal to run this notebook:
+Run the following commands in your terminal to run ML0101EN-Proj-Loan-py-final.ipynb notebook:
 
 git clone https://github.com/sinisabubonja/Coursera-final-project-the-best-classifier.git \
 python3 -m venv final\
